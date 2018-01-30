@@ -1,3 +1,7 @@
+<head>
+<link rel="stylesheet" type="text/css" href="Portfolio/portfolio.css"> 
+<script type="text/javascript" src="Portfolio/portfolio.js"></script>
+</head>
 <body class="container-fluid">
   <!-- <div id="navbar1">-->
   <nav id="topNav">
