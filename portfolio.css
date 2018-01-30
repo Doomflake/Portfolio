@@ -1,0 +1,150 @@
+body {
+  background-color: #dddddd;
+  color: green;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#page {
+  margin-top: 3.5em;
+  min-height: 100px;
+}
+.nav {
+  background-color: black;
+}
+ul {
+  width: 100%
+}
+ul li{
+  
+  float: right;
+}
+
+.home{
+  background-image:  url("http://i959.photobucket.com/albums/ae78/dewain38/Kayak-Startup-Tech-Office-monochrome-meeting-room-glass-wall_zpsgj0nvpfm.jpg");
+  Background-size: 100% 100%;
+  color: black;
+  height: 600px;
+  width: 100%;
+ 
+  
+}
+.about{
+  background-image: url("http://image.shutterstock.com/z/stock-vector-responsive-web-design-and-web-development-vector-illustration-flat-office-desk-style-icons-and-236339074.jpg");
+  color: black;
+  height: 650px;
+  Background-size: 100% 100%;
+  width: 100%;
+}
+.aboutp{
+  margin-top: 400px;
+  text-align: center
+}
+.portfolio{
+  background-image: url("http://i959.photobucket.com/albums/ae78/dewain38/thilakarathna_Computer_Vector_Clipart_zpsgxfnx9ns.png");
+  color: white;
+  height: 900px;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.contact{
+  background: url("http://wallpapershidef.com/wp-content/gallery/best-background-images-for-website/monitor-on-blue-backgrounds-monitor-on-blue-powerpoint-free.jpg");
+  color: black;
+  height: 600px;
+}
+.hometext {
+  padding: 100px 0px 0px 0px;
+  text-align: right;
+}
+#success_message{ display: none;}
+#contact_form {
+  padding: 50px;
+}
+
+
+img {
+    margin-top: 25px;
+    border-radius: 15px;    
+    width: 90%;
+  height: 490px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+  border-radius: 15px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+  color: black;
+  background-color: transparent;
+  border-radius: 15px;
+  width: 90%;
+}
+.imgright{
+  padding-right: 30px
+}
+.imgleft{
+  padding-left: 70px;
+  
+}
+.well{
+  width: 65%;
+  margin-left: auto;
+}
+nav, div.nav {
+  position: fixed;
+  z-index: 1024;
+  top: 0; left: 0; right: 0;
+  overflow: hidden;
+  ul {
+    background: black;
+    text-align: center;
+    padding: 0.5em;
+    li {
+      list-style: none;
+      display: inline-block;
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5em;
+        box-sizing: border-box;
+        &:hover {
+          background-color: lightGrey;
+          color: #333;
+          transition: all 0.2s;
+          border-bottom: 0.1em solid black;
+        }
+      }
+      &.active {
+        a {
+          background-color: #222;
+          border-bottom: 0.1em solid #222;
+          transition: all 0.2s;
+          &:hover {
+            background-color: lightGrey;
+            color: #333;
+            transition: all 0.2s;
+            border-bottom: 0.1em solid black;
+          }
+        }
+      }
+    }
+  }
+}
+#submit{
+  
+}
+.thumbs{
+  width: auto;
+	max-width:100%;
+  height: 70px;
+  margin-top: 70px;
+  
+}
