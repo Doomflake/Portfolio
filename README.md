@@ -1,7 +1,4 @@
-<head>
-<link rel="stylesheet" type="text/css" href="Portfolio/portfolio.css"> 
-<script type="text/javascript" src="Portfolio/portfolio.js"></script>
-</head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <body class="container-fluid">
   <!-- <div id="navbar1">-->
   <nav id="topNav">
@@ -28,7 +25,7 @@
     <div class="container-fluid home">
       <a id="Home"></a>
       <div class="container-fluid">
-        <div class="col-xs-8 col-xs-offset-4 hometext"> Hello, my name is Brian, and I am a site developer. I make it a point to give every project my full attention, and the same attention to detail regardless of project size.
+        <div id="welcome-section" class="col-xs-8 col-xs-offset-4 hometext"> Hello, my name is Brian, and I am a front-end site developer. I make it a point to give every project my full attention, and the same attention to detail regardless of project size.
         </div>
       </div>
 
@@ -39,8 +36,8 @@
 
       <br>
       <br>
-      <h4>About Me</h4>
-
+      <h4>About Me</h4><p?
+Currently I specialize in HTML, CSS, and Javascript projects with an emphasis on responsive design.  I am in the process of expanding my technologies, but what I am working with is not currently ready for projects.</p>
       <div>
         <p class="container aboutp">I bring a very close attention to detail to every project I do. By the time the planning phase is done, I have the site design fully formed, and I am extremely tenatious when it comes to realizing that vision. Any changes can easily be incorporated
           as the project needs evolve as well. If the product I'm seeing doesn't match what it should, it only makes me more determined to make it right.
@@ -54,9 +51,9 @@
 
 
       <div class="row">
-        <div class="col-xs-6 imgleft"> <a target="_blank" href="https://codepen.io/dewain38/full/xVNRbZ/">
-          <img src="http://i959.photobucket.com/albums/ae78/dewain38/tribute_zpsfitykmxl.png"></img>
-          <div class="desc">Above is an example of a tribute style page</div>
+        <div class="col-xs-6 imgleft"> <a target="_blank" href="https://codepen.io/dewain38/full/ZKmXmN/">
+          <img src="https://raw.githubusercontent.com/Doomflake/Portfolio/master/Weatherapp.png"></img>
+          <div class="desc">Above is a weather page I built.  It only functions with geolocation enabled</div>
 
         </div>
         <div class="row pair">
@@ -85,19 +82,9 @@
         <a href="https://www.facebook.com/dewain38" target="_blank"><img class="thumbs" src="http://i959.photobucket.com/albums/ae78/dewain38/facebook-android_zpsjg6w2bge.png" border="0" alt=" photo facebook-android_zpsjg6w2bge.png"/></a>
       </div>
       <div class="col-xs-6 col-xs-offset-2">
-    <!-- Do not change the code! -->
-<a id="foxyform_embed_link_874300" href="http://www.foxyform.com/">foxyform</a>
-<script type="text/javascript">
-(function(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "http://www.foxyform.com/js.php?id=874300&sec_hash=3a0649161d3&width=350px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKhpWL3FSlvs1bBvO7Ip9JLjAnR6BqhoaQQ_PmSycHEgH1ZA/viewform?embedded=true" width="640" height="934" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
-
+<h2>Please be patient while I retool.  Currently re-writing this page with new technologies and skills</h2>
     </div>
   </div>
           
